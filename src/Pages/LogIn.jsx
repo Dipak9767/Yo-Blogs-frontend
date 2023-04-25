@@ -62,7 +62,7 @@ const LogIn = () => {
                     mb={6}
                 />
                 <Button bg={'#7A6BB0'} color={'white'} mb={8} onClick={submitHandler} className='btn'>
-                    Register
+                    Log In
                 </Button>
                 <FormLabel>
                     Don't have an Account? <Link to={'/register'}>Register</Link>
